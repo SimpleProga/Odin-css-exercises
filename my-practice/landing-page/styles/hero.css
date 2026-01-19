@@ -1,0 +1,62 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  padding: 50px 250px;
+  gap: 60px;
+}
+
+.hero-left {
+  margin-left: 0;
+  width: auto;
+  height: auto;
+  flex: 0 1 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-left h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.hero-left button {
+  color: #e5e7eb;
+  font-weight: 600;
+  background-color: #3882f6;
+  height: 30px;
+  width: 100px;
+  border: #6b7280;
+  border-radius: 10px;
+}
+
+.hero-right {
+  margin-right: 0;
+  text-align: center;
+
+  background: #6b7280;
+  width: 520px;
+  height: 220px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 0 0 auto;
+  color: #e5e7eb;
+}

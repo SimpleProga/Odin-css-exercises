@@ -1,0 +1,52 @@
+.action-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px 0px;
+}
+
+.action {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  background: #3882f6;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 60px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.action-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.action-left h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  color: white;
+}
+
+.action-left p {
+  color: #e5e7eb;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.action-right {
+}
+
+.action-right button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 8px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+}
